@@ -1,0 +1,23 @@
+{
+  "name": "motivation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dulin666/motivation.git"
+  },
+  "author": "Dmitry Dulin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dulin666/motivation/issues"
+  },
+  "homepage": "https://github.com/dulin666/motivation#readme",
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
+}
