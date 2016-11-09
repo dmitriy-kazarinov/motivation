@@ -1,14 +1,17 @@
 import React from 'react'
-import Title from './Title.js'
+import Title from './Title'
+import Todo from './ToDo'
 
 const topTitle = 'Motivation Todo'
-const testTitle = 'test text'
+const testTitle = 'Test text'
 
 class App extends React.Component {
   render () {
     return (
       <div>
-        <Title text={topTitle} strong/>
+        <Title text={topTitle} strong />
+        <Todo />
+        __________________________
         <Title text={testTitle} />
       </div>
     )
