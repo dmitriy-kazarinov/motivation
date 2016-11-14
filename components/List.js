@@ -1,4 +1,5 @@
 import React from 'react'
+import Item from './Item'
 
 class List extends React.Component {
 
@@ -9,7 +10,7 @@ class List extends React.Component {
         <ul>
           {
             data.map((item) => {
-              return <li key={item.id}>{item.text}</li>
+              return <Item key={item.id} text={item.text} />
             })
           }
         </ul>
